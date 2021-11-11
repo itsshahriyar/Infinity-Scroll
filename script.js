@@ -9,7 +9,7 @@ let totalImages = 0;
 // Unsplash Api Get Photo Variable
 // Create Your ApiKey: https://unsplash.com/documentation#creating-a-developer-account
 const count = 5;
-const apiKey = YOUR_API;
+const apiKey = 'YOUR_API';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
 // Check if all images were loaded
